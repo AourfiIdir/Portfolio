@@ -24,7 +24,7 @@ link = "https://github.com/AourfiIdir/permis"
 [menu]
   [[menu.main]]
     name = "About"
-    url = "/en/about/"
+    url = "https://portfolio-gamma-three-19.vercel.app/en/about/"
     weight = 1
   [[menu.main]]
     name = "Experience"
