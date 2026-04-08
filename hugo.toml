@@ -1,6 +1,6 @@
 baseURL = 'https://portfolio-gamma-three-19.vercel.app/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Portfolio'
 theme = "hugo-noir"
 
 
