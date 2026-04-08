@@ -1,0 +1,23 @@
+[[blogs]]
+date = "2025-01-15"
+title = "Building My Portfolio with Hugo"
+link = "https://yourblog.com/hugo-portfolio"
+summary = "How I built my personal portfolio using Hugo and TailwindCSS."
+
+tags = ["Hugo", "Web Development", "Portfolio"]
+
+[[blogs]]
+date = "2025-02-10"
+title = "Understanding REST APIs"
+link = "https://yourblog.com/rest-apis"
+summary = "A beginner-friendly guide to understanding REST APIs and how they work."
+
+tags = ["API", "Backend", "Programming"]
+
+[[blogs]]
+date = "2025-03-05"
+title = "Getting Started with Machine Learning"
+link = "https://yourblog.com/ml-intro"
+summary = "An introduction to machine learning concepts and tools."
+
+tags = ["AI", "Machine Learning", "Python"]

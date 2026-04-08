@@ -1,0 +1,20 @@
+[[projects]]
+title = "License Hero"
+description = "LicenseHero is a full-stack mobile app that modernizes driving license prep with interactive learning. Built with React Native, Node.js, and MongoDB, it uses spaced repetition, quizzes, and progress tracking for efficient, user-friendly learning."
+tech = "Mongodb, React native, Nodejs"
+image = "/images/projects/permis.png"
+link = "https://github.com/AourfiIdir/permis"
+
+[[projects]]
+title = "Netcon"
+image = "/images/projects/netcon.png"
+tech = "C, premake5"
+description = "A network simulation tool"
+link = "https://github.com/AourfiIdir/Netcon"
+
+[[projects]]
+title = "Chess Engine"
+image = "/images/projects/chess.png"
+tech = "Java"
+description = "Chest engine "
+link = "https://github.com/AourfiIdir/chess"

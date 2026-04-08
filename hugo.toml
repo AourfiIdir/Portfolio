@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "hugo-noir"
+
+
+
+[params]
+  name = "Aourfi Idir"
+  location = "France"
+  description = "Computer Science Student"
+  profile_image = "/images/profile.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/AourfiIdir"
+  email = "idiraourfi73@gmail.com"
+
+[[params.projects]]
+title = "License Hero"
+description = "LicenseHero is a full-stack mobile app that modernizes driving license prep with interactive learning. Built with React Native, Node.js, and MongoDB, it uses spaced repetition, quizzes, and progress tracking for efficient, user-friendly learning."
+tech = "Mongodb, React native, Nodejs"
+image = "/images/projects/permis.png"
+link = "https://github.com/AourfiIdir/permis"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/en/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/en/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/en/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blogs"
+    url = "/en/blogs/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/en/contact/"
+    weight = 5

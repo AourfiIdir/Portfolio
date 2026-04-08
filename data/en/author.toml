@@ -1,0 +1,15 @@
+[author]
+  name = "Aourfi Idir"
+  location = "France"
+  description = "Computer Science Student"
+  profile_image = "/images/profile.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/AourfiIdir"
+  email = "idiraourfi73@gmail.com"
+[[honors]]
+institution = "Lycée Polyvalent Bejaia"
+title = "BAC"
+date = "2023"
+[[certifications]]
+title = "Java Ocp certification"
+url = ""

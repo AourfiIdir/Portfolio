@@ -1,0 +1,19 @@
+row1 = [
+  { icon = "devicon-python-plain", name = "Python" },
+  { icon = "devicon-c-original", name = "C" },
+  { icon = "devicon-javascript-plain", name = "JavaScript" },
+  # ... other tech stack items...
+  {icon = "devicon-sqlite-plain" , name = "Sqlite3"},
+  { icon = "devicon-ocaml-plain", name = "Ocaml" },
+{ icon = "devicon-java-plain" , name = "Java"}
+]
+
+# The 'row2' array populates the bottom carousel
+row2 = [
+  { icon = "devicon-docker-plain", name = "Docker" },
+  { icon = "devicon-postgresql-plain", name = "PostgreSQL" },
+  { icon = "devicon-mysql-original", name = "MySql" },
+  # ... other tech stack items... 
+  { icon = "devicon-nodejs-plain", name = "Node.js" },
+  {icon = "devicon-spring-original" , name = "Spring"}
+]

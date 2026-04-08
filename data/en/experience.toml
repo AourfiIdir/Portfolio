@@ -1,0 +1,34 @@
+[[experience]]
+  role = "Engineer 1"
+  company = "Abderrahmane Mira Bejaia"
+  period = "2023 - 2024"
+  country = "ALG"
+  #description = "Designed and developed LicenseHero, a full-stack mobile application for driving license preparation. Built with React Native, Node.js, and MongoDB, the app delivers an interactive learning experience using advanced memorization techniques such as spaced repetition, adaptive quizzes, and progress tracking. Implemented a scalable RESTful API, optimized data handling, and ensured cross-platform performance for a seamless user experience."
+  responsibilities = [
+    "Developed and maintained web and mobile applications.",
+    "Collaborated with cross-functional teams.",
+    "Led junior developers."
+  ]
+  technologies = ["Node.js", "MongoDB", "React Native"]
+
+[[experience]]
+  role = "Engineer 2"
+  company = "Abderrahman Mira Bejaia"
+  period = "2024 - 2025"
+  country = "ALG"
+  responsibilities = [
+    "Contributed to full-stack development projects.",
+    "Participated in code reviews and agile sprints."
+  ]
+  technologies = ["Python", "Django", "PostgreSQL"]
+
+[[experience]]
+  role = "License 2"
+  company = "Evry Paris Saclay"
+  period = "2025 - 2026"
+  country = "FR"
+  responsibilities = [
+    "Contributed to full-stack development projects.",
+    "Participated in code reviews and agile sprints."
+  ]
+  technologies = ["Python", "Django", "PostgreSQL"]
