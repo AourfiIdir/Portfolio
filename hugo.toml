@@ -4,7 +4,6 @@ title = 'Portfolio'
 theme = "hugo-noir"
 
 
-
 [params]
   name = "Aourfi Idir"
   location = "France"
@@ -24,7 +23,7 @@ link = "https://github.com/AourfiIdir/permis"
 [menu]
   [[menu.main]]
     name = "About"
-    url = "https://portfolio-gamma-three-19.vercel.app/en/about/"
+    url = "/en/about/"
     weight = 1
   [[menu.main]]
     name = "Experience"
