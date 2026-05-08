@@ -1,23 +1,16 @@
 [[blogs]]
-date = "2025-01-15"
-title = "Building My Portfolio with Hugo"
-link = "https://yourblog.com/hugo-portfolio"
-summary = "How I built my personal portfolio using Hugo and TailwindCSS."
+date = "2026-03-28"
+title = "Example of a stack in C/C++"
+link = "https://medium.com/@idiraourfi73/example-of-a-stack-in-c-c-8027ca3dc1c4"
+summary = "I was coding a program that uses the MD5 cryptographic function in C"
 
-tags = ["Hugo", "Web Development", "Portfolio"]
-
-[[blogs]]
-date = "2025-02-10"
-title = "Understanding REST APIs"
-link = "https://yourblog.com/rest-apis"
-summary = "A beginner-friendly guide to understanding REST APIs and how they work."
-
-tags = ["API", "Backend", "Programming"]
+tags = ["C", "Web Development", "Stack"]
 
 [[blogs]]
-date = "2025-03-05"
-title = "Getting Started with Machine Learning"
-link = "https://yourblog.com/ml-intro"
-summary = "An introduction to machine learning concepts and tools."
+date = "2026-04-10"
+title = "White Nights: What happened after Nastensika had left"
+link = "https://medium.com/@idiraourfi73/white-nights-what-happened-after-nastensika-had-left-de95a9e1cc9e"
+summary = "“You know, we thank some people for merely living in the time as we do. I thank you for the fact that I met you, that I’ll remember you for all my life.”"
 
-tags = ["AI", "Machine Learning", "Python"]
+tags = ["Books", "Love"]
+
