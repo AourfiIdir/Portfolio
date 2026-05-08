@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/en/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/blogs/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/en/blogs/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/en/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/en/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/experience/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/en/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/en/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://portfolio-gamma-three-19.vercel.app/tags/</loc>
   </url>
 </urlset>

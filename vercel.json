@@ -1,0 +1,4 @@
+{
+  "buildCommand": "hugo --baseURL='https://portfolio-gamma-three-19.vercel.app/'",
+  "outputDirectory": "public"
+}

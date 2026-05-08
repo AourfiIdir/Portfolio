@@ -1,4 +1,5 @@
 baseURL = 'https://portfolio-gamma-three-19.vercel.app/'
+canonifyURLs = true
 locale = 'en-us'
 title = 'Portfolio'
 theme = "hugo-noir"
