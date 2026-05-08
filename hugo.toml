@@ -24,21 +24,21 @@ link = "https://github.com/AourfiIdir/permis"
 [menu]
   [[menu.main]]
     name = "About"
-    url = "/en/about/"
+    url = "https://portfolio-gamma-three-19.vercel.app/en/about/"
     weight = 1
   [[menu.main]]
     name = "Experience"
-    url = "/en/experience/"
+    url = "https://portfolio-gamma-three-19.vercel.app/en/experience/"
     weight = 2
   [[menu.main]]
     name = "Projects"
-    url = "/en/projects/"
+    url = "https://portfolio-gamma-three-19.vercel.app/en/projects/"
     weight = 3
   [[menu.main]]
     name = "Blogs"
-    url = "/en/blogs/"
+    url = "https://portfolio-gamma-three-19.vercel.app/en/blogs/"
     weight = 4
   [[menu.main]]
     name = "Contact Me"
-    url = "/en/contact/"
+    url = "https://portfolio-gamma-three-19.vercel.app/en/contact/"
     weight = 5
