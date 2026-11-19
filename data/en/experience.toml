@@ -1,26 +1,27 @@
 [[experience]]
-  role = "Engineer 1"
-  company = "Abderrahmane Mira Bejaia"
-  period = "2023 - 2024"
-  country = "ALG"
-  #description = "Designed and developed LicenseHero, a full-stack mobile application for driving license preparation. Built with React Native, Node.js, and MongoDB, the app delivers an interactive learning experience using advanced memorization techniques such as spaced repetition, adaptive quizzes, and progress tracking. Implemented a scalable RESTful API, optimized data handling, and ensured cross-platform performance for a seamless user experience."
+  role = "Volunteer Computer Science Teacher"
+  company = "SGBD (Computer Science Club), Sainte-Geneviève-des-Bois"
+  period = "2024 - Present"
+  country = "FR"
+  github_link = "/images/experience/sgbd.svg"
   responsibilities = [
-    "Developed and maintained web and mobile applications.",
-    "Collaborated with cross-functional teams.",
-    "Led junior developers."
+    "Teach programming fundamentals and computer science concepts to club members.",
+    "Prepare lessons and hands-on exercises to support learning."
   ]
-  technologies = ["Node.js", "MongoDB", "React Native"]
+  technologies = ["Python", "Algorithms", "Teaching"]
 
 [[experience]]
-  role = "Engineer 2"
-  company = "Abderrahman Mira Bejaia"
-  period = "2024 - 2025"
-  country = "ALG"
+  role = "Software Development Intern"
+  company = "GNI Global Négoce"
+  company_link = "https://aourfiidir.github.io/GNI-TRADING/"
+  period = "2024"
+  country = "FR"
+  github_link = "/images/projects/gni.svg"
   responsibilities = [
-    "Contributed to full-stack development projects.",
-    "Participated in code reviews and agile sprints."
+    "Developed the entire platform for GNI Global Négoce.",
+    "Implemented and delivered core features across the website."
   ]
-  technologies = ["Python", "Django", "PostgreSQL"]
+  technologies = ["Web Development", "Frontend", "Backend"]
 
 [[experience]]
   role = "License 2"

@@ -24,3 +24,24 @@ image="/images/projects/autovoice.png"
 tech = "Rust, Lua, python, FastApi, axum"
 description = "Davinci resolve plugin that allows free voice over subtitles"
 link = "https://github.com/AourfiIdir/AutoVoice"
+
+[[projects]]
+title = "GNI Trading Platform"
+description = "Full platform developed during my internship at GNI Global Négoce."
+tech = "Web Development"
+image = "/images/projects/gni.svg"
+link = "https://aourfiidir.github.io/GNI-TRADING/"
+
+[[projects]]
+title = "Gameboy Emulator"
+description = "Game Boy emulator project currently in progress."
+tech = "Rust"
+image = "/images/projects/gameboy.svg"
+link = "https://github.com/AourfiIdir/GameboyEmulator"
+
+[[projects]]
+title = "Event Organizer AI Agent (Hackathon - 1st Prize)"
+description = "AI agent for event organizers built during a hackathon where my team won 1st prize. Turns live team interviews into Instagram content and converts engagement into leads."
+tech = "Python, FastAPI, Claude, Zernio, Telegram Bot"
+image = "/images/projects/hackathon-agent.svg"
+link = "https://github.com/mehditebib00-prog/hackaton-agent-swanbase-zernio-"

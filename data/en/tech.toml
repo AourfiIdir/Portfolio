@@ -5,7 +5,8 @@ row1 = [
   # ... other tech stack items...
   {icon = "devicon-sqlite-plain" , name = "Sqlite3"},
   { icon = "devicon-ocaml-plain", name = "Ocaml" },
-{ icon = "devicon-java-plain" , name = "Java"}
+  { icon = "devicon-java-plain" , name = "Java"},
+  { icon = "devicon-rust-original", name = "Rust" }
 ]
 
 # The 'row2' array populates the bottom carousel
