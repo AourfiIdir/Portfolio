@@ -1,6 +1,6 @@
 ---
-title : "experiences"
-description: "all the projects a worked on"
+title: "Projects"
+description: "All the projects I worked on"
 layout: "projects"
 ---
 

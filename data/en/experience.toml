@@ -3,7 +3,7 @@
   company = "SGBD (Computer Science Club), Sainte-Geneviève-des-Bois"
   period = "2024 - Present"
   country = "FR"
-  github_link = "/images/experience/sgbd.svg"
+  image = "/images/experience/sgbd.svg"
   responsibilities = [
     "Teach programming fundamentals and computer science concepts to club members.",
     "Prepare lessons and hands-on exercises to support learning."
@@ -16,7 +16,7 @@
   company_link = "https://aourfiidir.github.io/GNI-TRADING/"
   period = "2024"
   country = "FR"
-  github_link = "/images/projects/gni.svg"
+  image = "/images/projects/gni.svg"
   responsibilities = [
     "Developed the entire platform for GNI Global Négoce.",
     "Implemented and delivered core features across the website."

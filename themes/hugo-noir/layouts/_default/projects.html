@@ -4,7 +4,8 @@
     
     <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
         {{ $projectsData := index site.Data .Language.Lang "projects" }}
-        {{ range $projectsData.projects }}
+        {{ $projects := cond (and $projectsData $projectsData.projects) $projectsData.projects site.Params.projects }}
+        {{ range $projects }}
         <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
             <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
                 <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>

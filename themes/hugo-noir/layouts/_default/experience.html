@@ -35,6 +35,11 @@
                 <div class="absolute -left-1.5 top-0 w-2 h-2 bg-border-secondary-light dark:bg-border-secondary-dark rounded-full"></div>
                 <div class="p-6 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300 border border-border-primary-light dark:border-border-primary-dark">
                     <div class="flex-grow">
+                        {{ if .image }}
+                            <div class="mb-4 overflow-hidden rounded-md border border-border-primary-light dark:border-border-primary-dark bg-bg-secondary-light dark:bg-bg-tertiary-dark">
+                                <img src="{{ .image }}" alt="{{ .company | default .role }}" class="w-full h-40 md:h-48 object-cover">
+                            </div>
+                        {{ end }}
                         {{ if .company }}
                             <div class="text-text-secondary-light dark:text-text-secondary-dark text-lg mb-1">
                                 {{ if .company_link }}
