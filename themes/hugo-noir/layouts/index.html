@@ -9,17 +9,22 @@
     
     {{ with $author }}
     <section class="mb-16">
-        <div class="max-w-3xl ml-0 p-4 pb-2 border border-border-primary-light dark:border-border-primary-dark rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark shadow-lg relative">
-            <div class="text-left">
-                <h1 class="text-4xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .name }}</h1>
-                <p class="text-gray-400 mb-3 flex items-center text-xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-400" width="24" height="24" viewBox="-7 -2 24 24"><path fill="currentColor" d="M4 9.9A5.002 5.002 0 0 1 5 0a5 5 0 0 1 1 9.9V19a1 1 0 0 1-2 0V9.9zM5 8a3 3 0 1 0 0-6a3 3 0 0 0 0 6z"/></svg>
-                    {{ .location }}
-                </p>
-                <p class="text-xl mb-6 text-text-primary-light dark:text-text-primary-dark">{{ .description }}</p>
+        <div class="max-w-4xl mx-auto p-6 md:p-8 border border-border-primary-light dark:border-border-primary-dark rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark shadow-lg relative">
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
+                {{ with .profile_image }}
+                <img src="{{ . }}" alt="{{ $author.name }}" class="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover border-4 border-border-primary-light dark:border-border-primary-dark shadow-md flex-shrink-0">
+                {{ end }}
+                <div class="text-center md:text-left flex-1 md:pr-44">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .name }}</h1>
+                    <p class="text-gray-400 mb-3 flex items-center justify-center md:justify-start text-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-400 mr-1" width="24" height="24" viewBox="-7 -2 24 24"><path fill="currentColor" d="M4 9.9A5.002 5.002 0 0 1 5 0a5 5 0 0 1 1 9.9V19a1 1 0 0 1-2 0V9.9zM5 8a3 3 0 1 0 0-6a3 3 0 0 0 0 6z"/></svg>
+                        {{ .location }}
+                    </p>
+                    <p class="text-xl mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .description }}</p>
+                </div>
             </div>
             <!-- Social Icons - Moved to bottom for mobile -->
-            <div class="mt-8 md:mt-0 flex flex-wrap justify-center gap-3 md:absolute md:top-4 md:right-4 md:flex-nowrap md:justify-end md:mt-0">
+            <div class="mt-6 flex flex-wrap justify-center gap-3 md:absolute md:top-6 md:right-6 md:mt-0 md:justify-end">
                 {{ with .email }}
                 <a href="mailto:{{ . }}" class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark bg-bg-tertiary-light dark:bg-bg-tertiary-dark p-2 rounded-md border border-border-secondary-light dark:border-border-secondary-dark hover:border-border-primary-light dark:hover:border-border-primary-dark transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M2 3.5h12a.5.5 0 0 1 .5.5v.572L8 8.286L1.5 4.572V4a.5.5 0 0 1 .5-.5Zm-.5 2.8V12a.5.5 0 0 0 .5.5h12a.5.5 0 0 0 .5-.5V6.3L8.372 9.8L8 10.014L7.628 9.8L1.5 6.3ZM0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Z" clip-rule="evenodd"/></svg>

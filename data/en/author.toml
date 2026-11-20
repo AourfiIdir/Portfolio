@@ -2,7 +2,7 @@
   name = "Aourfi Idir"
   location = "France"
   description = "L3 Computer Science Student at Université Paris-Saclay"
-  profile_image = "/images/profile.jpg" # Place in your site's static/images/
+  profile_image = "/images/profile.png" # Place in your site's static/images/
   # Social links
   github = "https://github.com/AourfiIdir"
   email = "idiraourfi73@gmail.com"
