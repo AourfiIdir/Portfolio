@@ -1,0 +1,19 @@
+[[studies]]
+  degree = "Licence 3 - Computer Science"
+  institution = "Université Paris-Saclay"
+  period = "2026 - Present"
+  country = "FR"
+  details = ["Spécialité SA (Systèmes Autonomes)"]
+
+[[studies]]
+  degree = "Licence 2 - Computer Science"
+  institution = "Université d'Évry"
+  period = "2025 - 2026"
+  country = "FR"
+
+[[studies]]
+  degree = "Engineering Studies (ING1 & ING2)"
+  institution = "Engineering School"
+  period = "Before L2 at Université d'Évry"
+  country = "DZ"
+  details = ["Completed 2 years of engineering studies (diplôme de complétion de 2 ans d'ingénieur)."]

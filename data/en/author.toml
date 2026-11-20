@@ -1,15 +1,29 @@
 [author]
   name = "Aourfi Idir"
   location = "France"
-  description = "Computer Science Student"
+  description = "L3 Computer Science Student at Université Paris-Saclay"
   profile_image = "/images/profile.jpg" # Place in your site's static/images/
   # Social links
   github = "https://github.com/AourfiIdir"
   email = "idiraourfi73@gmail.com"
+
 [[honors]]
 institution = "Lycée Polyvalent Bejaia"
-title = "BAC"
+title = "Baccalauréat"
 date = "2023"
+
+[[honors]]
+institution = "École d'ingénieurs"
+title = "Diplôme de complétion de 2 ans d'ingénieur (ING1 & ING2)"
+date = "Before L2 at Université d'Évry"
+
 [[certifications]]
-title = "Java Ocp certification"
+title = "Java OCP Certification"
+url = ""
+
+[[voluntary]]
+organization = "SGBD (Computer Science Club), Sainte-Geneviève-des-Bois"
+role = "Volunteer Computer Science Teacher"
+period = "2026"
+description = "Taught programming fundamentals and computer science concepts to club members through lessons and hands-on exercises."
 url = ""

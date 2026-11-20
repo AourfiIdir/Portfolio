@@ -1,16 +1,4 @@
 [[experience]]
-  role = "Volunteer Computer Science Teacher"
-  company = "SGBD (Computer Science Club), Sainte-Geneviève-des-Bois"
-  period = "2024 - Present"
-  country = "FR"
-  image = "/images/experience/sgbd.svg"
-  responsibilities = [
-    "Teach programming fundamentals and computer science concepts to club members.",
-    "Prepare lessons and hands-on exercises to support learning."
-  ]
-  technologies = ["Python", "Algorithms", "Teaching"]
-
-[[experience]]
   role = "Software Development Intern"
   company = "GNI Global Négoce"
   company_link = "https://aourfiidir.github.io/GNI-TRADING/"
@@ -22,14 +10,3 @@
     "Implemented and delivered core features across the website."
   ]
   technologies = ["Web Development", "Frontend", "Backend"]
-
-[[experience]]
-  role = "License 2"
-  company = "Evry Paris Saclay"
-  period = "2025 - 2026"
-  country = "FR"
-  responsibilities = [
-    "Contributed to full-stack development projects.",
-    "Participated in code reviews and agile sprints."
-  ]
-  technologies = ["Python", "Django", "PostgreSQL"]
